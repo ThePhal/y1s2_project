@@ -1,0 +1,141 @@
+.topnav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    width: 100%;
+    height: 70px;
+    top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111;
+}
+
+.topnav a {
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+.topnav-mid a:hover {
+    top: -3px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: grey;
+}
+
+.topnav-left {
+    position: relative;
+    left: 0;
+    display: flex;
+    width: 240px;
+    transition: 0.3s ease;
+}
+
+.topnav-left a {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.topnav-left:hover {
+    left: 5px;
+}
+
+.topnav-left img {
+    width: 75px;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.topnav-left:hover img {
+    transform: rotate(360deg);
+}
+
+.topnav-mid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    height: 70px;
+}
+
+.topnav-mid a {
+    width: 20%;
+    height: 40px;
+}
+
+.topnav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 260px;
+    height: 70px;
+}
+
+.topnav-right a {
+    width: 40%;
+    height: 40px;
+    margin: 0 5px;
+    padding: 0 5px;
+}
+
+.topnav-right a:hover {
+    cursor: pointer;
+    top: -3px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: grey;
+}
+
+#shopping-cart {
+    width: 20%;
+}
+
+#shopping-cart img{
+    width: 30px;
+    height: 30px;
+}
+
+#account-icon {
+    width: 40%;
+}
+
+#account-icon img{
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+}
+
+#account-icon button {
+    position: absolute;
+    display: none;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #111;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+#account-icon button span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 60%;
+    background-color: rgb(201, 0, 0);
+    border-radius: 5px;
+}
+
+#account-icon button:hover span{
+    cursor: pointer;
+    background-color: rgb(131, 0, 0);
+}

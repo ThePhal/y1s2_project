@@ -1,0 +1,77 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 100%;
+    height: 350px;
+    background-color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 70%;
+    border-bottom: 1px solid white;
+}
+
+.footer-link-wrapper {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.footer-header {
+    padding: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.ear-candy-logo {
+    width: 100px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.ear-candy-logo:hover {
+    transform: rotate(360deg);
+}
+
+.footer-link {
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: rgb(112, 110, 110);
+    transition: .4s ease;
+}
+
+.footer-link-img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-link-img img{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+}
